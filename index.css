@@ -1,0 +1,87 @@
+@import url('https://cdn.jsdelivr.net/gh/mustafazeydani/Fonts/CursedTimerULiL/CursedTimerULiL.css');
+body {
+    margin: 0;
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.btn{
+    cursor: pointer;
+    max-width: 100px;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    background: #F94F6D;
+    border: none;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background:#1B244A;
+    min-width: 400px;
+    min-height: 365px;
+    border-radius: 10px;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.score-container{
+    display:flex;
+}
+
+.score-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.score-container h3{  
+    font-family: 'Verdana';
+    color: white;
+    font-size: 2rem;
+}
+
+#home-el, #guest-el{
+    padding-top: 10px;
+    width: 210px;
+    height: 120px;
+    margin: 5px;
+    background: black;
+    font-family: Cursed Timer ULiL;
+    color: #F94F6D;
+    font-size: 7rem;
+    border: 5px inset #F94F6D;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    color: #9AABD8;
+    font-family: Cursed Timer ULiL;
+}
+
+.button-container div{
+    display: flex;
+}
+
+.buttons-home,.buttons-guest{
+  display: flex;
+}
+
+.buttons-home div, .buttons-guest div{
+    margin: 4px 10px;
+    padding: 4px;
+    border: 2px solid #9AABD8;
+    cursor: pointer;
+}
+
+.new-game-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
